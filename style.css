@@ -164,8 +164,6 @@ body{
     .upper {
       max-width: 100%; /* Allow content to take up the full width of the screen */
       height: auto;
-      display: flex;
-      flex-wrap: wrap;
       align-items: center;
     }
     .lower{
