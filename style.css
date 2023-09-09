@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Concert One', cursive; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Ubuntu', sans-serif; */ 
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* upper part */
+.upper{
+    height: 550px;
+    width: 100%;
+    background-color: #FFCD9E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+
+/* left part */
+.left{
+    height: 450px;
+    width:600px;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    
+}
+
+.left h2{
+    font-size: 2.1rem;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.left .para{
+    font-size: 1.1rem;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+
+    color:#484848;
+    font-weight: 600;
+    line-height: 30px;
+    
+}
+.left .show{
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+}
+
+.input input{
+    border: 3px solid black;
+    height: 54px;
+    width: 320px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+.input button{
+    background-color: black;
+        color: white;
+        height: 55px;
+        width: 180px;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 24px;
+        font-weight: 700;
+        font-size:1.2rem;
+}
+
+#white p{
+   color: #ffffff;
+   font-weight: 600;
+   font-size: 1rem;
+   
+}
+#white{
+    /* border: 2px solid; */
+    display: flex;
+    height: 40px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* right */
+.right{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* lowerbox */
+
+.lower{
+    width: 100%;
+    height: 280px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      
+}
+
+.lowerbox ul a{
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.lowerbox{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    height: 250px;
+    width: 50%;
+    padding-top: 30px;
+}
+.lleft{
+    float: left;
+    /* border: 2px solid white; */
+    margin-left: 150px;
+    
+}
+
+.lright{
+    float: right;
+    text-align: right;
+    /* border: 2px solid white; */
+    margin-right: 150px;
+   
+}
