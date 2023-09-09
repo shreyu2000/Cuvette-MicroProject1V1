@@ -35,8 +35,8 @@ body{
     display: flex;
    flex-direction: column;
    justify-content: space-around;
-    
 }
+    
 
 .left h2{
     font-size: 2.1rem;
@@ -163,7 +163,9 @@ body{
     /* Define styles for screens with a maximum width of 768px */
     .upper {
       max-width: 100%; /* Allow content to take up the full width of the screen */
-      height: 1000px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
       align-items: center;
     }
     .lower{
@@ -179,7 +181,7 @@ body{
     /* Define styles for screens with a maximum width of 768px */
     .upper {
       max-width: 100%; /* Allow content to take up the full width of the screen */
-      height: 1000px;
+      height: auto;
       align-items: center;
     }
     .lower{
