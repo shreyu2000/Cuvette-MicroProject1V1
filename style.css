@@ -12,27 +12,29 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+
 /* upper part */
 .upper{
     height: 550px;
-    width: 100%;
+    width: 100%; /* Width takes up 100% of its parent's width */
+   /* For responsive aspect ratio (16:9), adjust as needed */
     background-color: #FFCD9E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    /* position: fixed; */
 
 }
-
-
 
 
 /* left part */
 .left{
     height: 450px;
-    width:600px;
+    /* width:600px; */
     display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-around;
     
 }
 
@@ -156,3 +158,35 @@ body{
     margin-right: 150px;
    
 }
+
+@media (max-width: 768px) {
+    /* Define styles for screens with a maximum width of 768px */
+    .upper {
+      max-width: 100%; /* Allow content to take up the full width of the screen */
+      height: 1000px;
+      align-items: center;
+    }
+    .lower{
+        height: auto;
+    }
+    .left{
+        align-items: center;
+    }
+    
+  }
+
+  @media (min-width: 768px) and (max-width:1094px){
+    /* Define styles for screens with a maximum width of 768px */
+    .upper {
+      max-width: 100%; /* Allow content to take up the full width of the screen */
+      height: 1000px;
+      align-items: center;
+    }
+    .lower{
+        height: auto;
+    }
+    .left{
+        align-items: center;
+    }
+    
+  }
