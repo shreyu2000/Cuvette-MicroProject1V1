@@ -163,7 +163,7 @@ body{
     /* Define styles for screens with a maximum width of 768px */
     .upper {
       max-width: 100%; /* Allow content to take up the full width of the screen */
-      height: auto;
+      height: 1000px;
       align-items: center;
     }
     .lower{
